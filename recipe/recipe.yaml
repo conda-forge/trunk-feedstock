@@ -1,6 +1,6 @@
 context:
   name: trunk
-  version: "0.22.1"
+  version: "0.22.2"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/trunk-rs/${{ name }}/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: b93e82dcb8cb3de8a6762d9d2df60a22b8e0db73c504edfcfabeb8017997bf1d
+  sha256: 66a57a27d156181f8268a15c53755bf09f6119127de71b4a1f059badf80b9a90
 
 build:
   number: 0
